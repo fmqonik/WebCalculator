@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}  
+
+body {
+    font-family: sans-serif;
+    background-color: #192339;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+h2 {
+    font-size: 40px;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+  
+.flex-container-row {
+    display: flex;
+}
+  
+.operator,
+.negative,
+.equals {
+    background-color: #ffd6ff;
+    border: 1px solid black;
+}
+  
+.button {
+    flex-basis: 25%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid rgb(1, 54, 23);
+    cursor: pointer;
+}
+  
+.double {
+    flex-basis: 50%;
+}
+  
+.display {
+    background-color: #6ed4e2;
+    padding: 10px 20px;
+    font-size: 2em;
+    border: 1px solid rgb(255, 255, 255);
+}
+  
+.button {
+    background-color: #bbffc5;
+    border: 1px solid rgb(255, 255, 255);
+}
+  
+.button:hover {
+    font-weight: bold;
+}
+  
+.card {
+    margin: 100px auto;
+    width: 500px;
+    padding:20px ;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+/* responsive */
+@media screen and (max-width: 721px) {
+    .button {
+        padding: 10px;
+    }
+}
